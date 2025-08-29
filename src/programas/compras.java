@@ -18,6 +18,7 @@ public class compras {
         System.out.print("Ingresar tercera compra: ");
         compra3 = lectura.nextDouble();
         //proceso de datos
+        System.out.println("Los resultados son");
         tc = compra1 + compra2 + compra3;
         promedio = tc/3;
         //salida de datos
